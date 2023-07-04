@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS empp;
+CREATE TABLE empp (
+  ID int(11) NOT NULL AUTO_INCREMENT,
+  First_Name varchar(50) DEFAULT NULL,
+  Last_Name varchar(50) DEFAULT NULL,
+  email varchar(50) DEFAULT NULL,
+  AGE int(11) DEFAULT NULL,
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB ;
